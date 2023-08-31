@@ -1,0 +1,253 @@
+/* Reset de Margem e Espaçamento */
+body {
+    margin: 0;
+    padding: 0;
+}
+
+/* Estilos para o Cabeçalho */
+.header {
+    background-color: #FFFAF0;
+    color: #2F4F4F;
+    text-align: center;    
+}
+
+.name {
+    background-color: #FFFAF0;
+    font-size: 40px;
+    font-family: 'Poppins', sans-serif;
+    padding: 0;
+}
+
+/* Estilos para Títulos e Parágrafos */
+.title,
+.header p {
+    font-size: 20px;
+    font-family: 'Quicksand', sans-serif;
+    padding: 0;
+    line-height: 0.5;
+}
+
+/* Estilos para Navegação */
+.navigation {
+    background-color: #FFFAF0;
+    padding: 0;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    z-index: 1000; /* Um valor alto para garantir que a barra de navegação esteja acima do conteúdo */
+    text-decoration: none; /* Remover sublinhado */
+}
+
+.nav-list {
+    list-style: none;
+    display: flex;
+    justify-content: left;
+    gap: 20px;
+    padding: 0 0 0 10px;
+    text-decoration: none; /* Remover sublinhado */
+    }
+
+.nav-list li {
+    font-size: 15px;
+    font-family: 'Quicksand', sans-serif;
+    text-decoration: none; /* Remover sublinhado */
+     }
+
+/* Estilos para Imagem de Perfil */
+.profile-image {
+    max-width: 300px;
+    height: auto;
+    transform: rotate(-0.5deg);
+    border-radius: 8%;
+    border: 5px solid #2F4F4F;
+    }
+
+/* Estilos para seções */
+.section {
+    flex: 1; /* Distribuir espaço igualmente entre as seções */
+    padding: 0;
+    text-align: center;
+    background-color: #FFFAF0; /* Cor do fundo */
+    margin: 0px; /* Remover as margens superiores e inferiores */
+    border: 10px solid #2F4F4F; /* Cor da borda */
+}
+
+.about-text {
+    font-size: 18px;
+    color: #2F4F4F; /* Cor do texto */
+    font-family: 'Quicksand', sans-serif;
+    text-align: center;
+    margin: 0 auto;
+    max-width: 800px; /* Defina a largura máxima desejada */
+    padding: 5px;
+}
+
+.about-text:first-of-type {
+   margin-top: 20px; /* Espaço acima do primeiro parágrafo */
+   margin-bottom: 5px; /* Espaço abaixo do primeiro parágrafo */
+}
+
+.about-text:not(:first-of-type) {
+    margin-bottom: 20px; /* Espaço abaixo do último parágrafo */
+}
+
+.section-title {
+    font-size: 24px;
+    }
+
+/* Estilo para seção container */
+.sections-container {
+    flex: 1; /* Distribuir espaço igualmente entre as seções */
+    padding: 0;
+    text-align: center;
+    margin: 0px; /* Remover as margens superiores e inferiores */
+    display: flex;
+    justify-content: space-evenly; 
+}
+
+.custom-background,
+.custom-border {
+    flex: 1; /* Distribuir espaço igualmente entre os elementos */
+    padding: 10; /* Espaçamento interno */
+    }
+
+.custom-background {
+    background-color: #2F4F4F;
+    padding: 10px; /* Espaçamento interno */
+    box-shadow: inset 0 0 0 1px #FFFAF0; /* Contorno interno */
+    display: flex;
+    flex-direction: column; /* Alinhar os elementos verticalmente */
+    align-items: center; /* Centralizar horizontalmente */
+    justify-content: center; /* Centralizar verticalmente */
+    padding: 20px; /* Espaçamento interno */
+}
+
+.custom-background h2 {
+     font-size: 20px;
+     font-family: 'Poppins', sans-serif;
+     color: #FFFAF0;
+}
+
+.custom-background p {
+     font-size: 18px;
+     font-family: 'Quicksand', sans-serif;
+     color: #FFFAF0;
+}
+
+.custom-border {
+  /* Estilos para o texto dentro da seção "Portfólio" */
+  color: #2F4F4F;
+  font-family: 'Quicksand', sans-serif;
+}
+
+.custom-border p {
+  margin-bottom: 10px; /* Espaçamento entre os parágrafos */
+}
+
+.custom-border a {
+  color: #0000FF; /* Cor do link */
+  text-decoration: none; /* Remover sublinhado do link */
+  transition: color 0.3s ease;
+}
+
+.custom-border a:hover {
+  color: #FF4500; /* Cor do link ao passar o mouse */
+}
+
+
+/* Estilos para os links */
+.sections-custom {
+    background-color: #2F4F4F;
+    padding: 0;
+    margin: 0;
+    border-bottom: none; /* Remover a borda inferior */
+}
+
+.social-links {
+    list-style: none;
+    padding: 100px;
+    margin: 0;
+    text-align: center;
+}
+
+.social-links li {
+    margin-bottom: 10px; /* Espaçamento entre os links */
+}
+
+.social-links a {
+    display: inline-block;
+    background-color: #2F4F4F;
+    color: #FFFAF0;
+    text-decoration: none;
+    border-radius: 5px;
+    font-family: 'Poppins', sans-serif;
+    font-size: 42px;
+    margin: 0;
+}
+
+/* Estilos para formulário */
+.sections h1 {
+    text-align: center;
+    color: #2F4F4F;
+    font-family: 'Quicksand', sans-serif;
+    background-color: #FFFAF0;
+    margin: 0;
+    padding: 40px 0 0 0;
+}
+.sections h4 {
+    text-align: center;
+    color: #2F4F4F;
+    font-family: 'Quicksand', sans-serif;
+    background-color: #FFFAF0;
+    margin: 0;
+    padding: 10px 0 40px 0;
+}
+
+.sections {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #FFFAF0; /* Cor de fundo amarelo*/
+    border: 10px solid #2F4F4F;
+    margin-top: -10px; /* Remover a margem superior */
+}
+
+.sections label {
+    color: #2F4F4F; /* Cor do texto no botão */
+    font-family: 'Quicksand', sans-serif;
+    align-items: left;
+}
+
+.sections input[type="text"],
+.sections input[type="email"],
+.sections textarea {
+    width: 100%;
+    align-items: center;
+    background-color: #2F4F4F;
+    padding: 10px;
+    border: 1px solid #2F4F4F;
+    border-radius: 10px;
+}
+
+.final {
+    text-align: center; /* Centralizar o texto */
+    font-size: 20px;
+    font-family: 'Quicksand', sans-serif;
+    color: #2F4F4F;
+    font-weight: bold; /* Aplicar negrito */
+    margin-top: 20px; /* Adicionar espaço acima do texto */
+}
+/* Estilos para o botão de enviar */
+.sections button {
+    background-color: #2F4F4F;
+    color: #FFFAF0; /* Cor do texto no botão */
+    border: none;
+    border-color: #2F4F4F;
+    border-radius: 10px;
+    padding: 10px 20px;
+    cursor: pointer;
+    font-family: 'Quicksand', sans-serif;
+    border-radius: 5px; /* Bordas arredondadas para o botão */
+    margin: 10px 0 20px 0;
+    width: 30%;
+}
